@@ -42,17 +42,7 @@ python main.py
 
 ## Screenshots
 ![Quiz App Main Screen](screenshots/main_screen.png)
-
 ![Correct Answer Feedback](screenshots/correct_answer.png)
+![Incorrect Answer Feedback](screenshots/Incorrect_answer.png)
 
-![Incorrect Answer Feedback](screenshots/incorrect_answer.png)
 
-## Future Improvements
-
-- Add more question categories.
-- Implement a timer for each question.
-- Store high scores.
-
-## License
-
-This project is licensed under the MIT License.
