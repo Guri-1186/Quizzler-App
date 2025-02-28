@@ -1,9 +1,7 @@
 from tkinter import *
 from quiz_brain import QuizBrain
 
-
 THEME_COLOR = "#375362"
-
 class QuizInterface:
     def __init__(self, quiz_brain:QuizBrain):
      self.quiz = quiz_brain
@@ -27,8 +25,6 @@ class QuizInterface:
      self.button_false.grid(row=2, column  = 1)
      self.get_next_question()
     
-     
-     
      self.window.mainloop()
     def get_next_question(self):
         self.canvas.config(bg = "white")
@@ -50,13 +46,5 @@ class QuizInterface:
             self.canvas.config(bg = "green")
         else:
             self.canvas.config(bg = "red")
-        
         self.window.after(1000,self.get_next_question)
-     
-     
-     
-     
-     
-     
-     
-  
+      
