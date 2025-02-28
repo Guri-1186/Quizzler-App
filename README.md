@@ -41,11 +41,10 @@ python main.py
 ```
 
 ## Screenshots
-
-## Screenshots
-
 ![Quiz App Main Screen](screenshots/main_screen.png)
+
 ![Correct Answer Feedback](screenshots/correct_answer.png)
+
 ![Incorrect Answer Feedback](screenshots/incorrect_answer.png)
 
 ## Future Improvements
